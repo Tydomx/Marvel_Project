@@ -1,3 +1,18 @@
-h1 {
-    color: green;
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bangers', cursive;
+    
+}
+html {
+
+    background-image: url(../image/marvel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html::after {
+    background: url(../image/marvel.png); 
+    opacity: 0.5;
+    position: absolute;
 }
