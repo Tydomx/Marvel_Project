@@ -51,16 +51,38 @@
                 <img src="../Marvel_project_/assets/image/marvel_team.jpg" />
             </figure>
 
-            <button>
-                Submit
+
+            <button class="modal-trigger" data-target="charSelect">
+                submit
             </button>
+
+            <div class="modal" id="charSelect">
+                <div class="modal-content">
+                    <h3>Choose a character</h3>
+                    <div class="row">
+                        <form class="col s12">
+                          <div class="row">
+                            <div class="input-field col s12">  <i class="material-icons prefix">person</i>  
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Character Name</label>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                            <a id="charPage" class="btn teal" href="./character.html">Find</a>
+                            <a href="#" class="btn red modal-close">Cancel</a>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                </div>
+            </div>
         </div>
     </main>
    
     <footer>
         <p>Made with Love by Marvel Fans (Abel, Yuliia, Michael)</p>
     </footer>
-
     <script src="./assets/js/homepage.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>

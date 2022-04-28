@@ -14,3 +14,10 @@ html::after {
     opacity: 0.5;
     position: absolute;
 }
+
+.modal {
+    background: url(../image/form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
