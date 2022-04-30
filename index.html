@@ -1,63 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./assets/css/style.css" rel="stylesheet" />
-
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="./assets/css/materialize/css/materialize.css"  media="screen,projection"/>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/image/favicon.ico" />
     <title>Marvel</title>
-</head>
-<body>
-    <header>
-        <h1>Marvel Universe</h1>
-        <p>All your favorite Superheroes at a click of a button</p>
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Courgette&display=swap" rel="stylesheet" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+  </head>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="">About</a>
-                </li>
-                <li>
-                    <a href="">Character</a>
-                </li>
+  <body>
+    <div class="page-container">
+      <div class="content-wrap">
+        <header>
+          <h1 class="header center">Marvel Universe</h1>
+          <p class="header center slogan">
+            All your favorite Superheroes at a click of a button
+          </p>
+          <nav class="row red darken-4">
+            <ul
+              id="nav-mobile"
+              class="brand-logo center text"
+            >
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Character</a>
+              </li>
             </ul>
-            
-        </nav>
-    </header>
+          </nav>
+        </header>
 
-    <main>
-        <div>
-            <div>
-                <!-- can always make this into h2 later -->
-                <h2>Description of site</h2>
-                <!-- can always make this more dry -->
-                <p>Hello! Marvel Fan and welcome to the Marvel Universe website where we will take you on a journey throughout the Marvel Universe finding all of your favorite characters information via the Marvel API. Once there you will receive a gif of said superhero along with a preview of their most recent movie. </p>
+        <main>
+          <div class="row">
+            <div class="center col s12 m6">
+              <h2 class="title-description" >Description of site</h2>
+              <!-- can always make this more dry -->
+              <p class="description ">
+                Hello! Marvel Fan and welcome to the Marvel Universe website
+                where we will take you on a journey throughout the Marvel
+                Universe finding all of your favorite characters information via
+                the Marvel API. Once there you will receive a gif of said
+                superhero along with a preview of their most recent movie.
+              </p>
             </div>
-            
+            <div class="col s12 m6">
             <figure>
-                
+              <img
+                class="responsive-img"
+                src="./assets/image/marvel_team.jpg"
+                alt="marvel team"
+              />
             </figure>
+            </div>
+          </div>
 
-            <button>
-                Submit
+          <div class="center" id="btn">
+            <button
+              class="btn-large waves-effect waves-light  teal darken-2"
+              type="submit"
+              name="action"
+            >
+              Submit
+              <i class="material-icons right">send</i>
             </button>
-        </div>
-    </main>
-   
-    <footer>
-        <p>Made with Love by Marvel Fans (Abel, Yuliia, Michael)</p>
+          </div>
+        </main>
+      </div>
+    </div>
+    <footer id="footer">
+      <p class="white-text red darken-4">
+        Made with Love by Marvel Fans (Abel, Yuliia, Michael)
+      </p>
     </footer>
 
     <script src="./assets/js/homepage.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
 </html>

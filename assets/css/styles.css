@@ -1,18 +1,61 @@
-* {
-    box-sizing: border-box;
-}
 body {
-    font-family: 'Bangers', cursive;
-    
-}
-html {
-
+    font-family: "Bangers", cursive;
+    position: relative;
+  }
+  .page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .content-wrap {
+    padding-bottom: 1rem;    /* Footer height */
+  }
+  body:after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     background-image: url(../image/marvel.png);
-    background-repeat: no-repeat;
     background-size: cover;
-}
-html::after {
-    background: url(../image/marvel.png); 
-    opacity: 0.5;
-    position: absolute;
-}
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+    z-index: -1;
+  }
+  .description {
+    font-size: 1.6rem;
+    color: rgb(2, 12, 9);
+  }
+  
+  .slogan {
+    font-size: 2rem;
+    color: wheat;
+  }
+  
+  p {
+    font-family: "Courgette", cursive;
+    font-size: 1rem;
+  }
+  nav ul a {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  figure {
+    display: flex;
+    border: 2px rgb(201, 109, 109) solid;
+  }
+  .btn {
+    position: relative;
+    align-content: center;
+  }
+  footer {
+    font-family: "Courgette", cursive;
+    text-align: center;
+    font-size: 1rem;
+    bottom: 0;
+    width: 100%;
+  }
