@@ -10,18 +10,7 @@ body {
 .content-wrap {
   padding-bottom: 1rem;    /* Footer height */
 }
-/*html {
-  background-image: url(../image/marvel.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.slogan {
-    font-size: 1.5rem;
-}
-/*html {
-    position: relative;   
-}*/
+
 body:after {
   content: "";
   position: fixed;
@@ -70,27 +59,7 @@ footer {
   text-align: center;
   font-size: 1rem;
   position: absolute;
-  bottom: 0;
+  bottom: auto;
+  height: 35px;
   width: 100%;
-}
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-  
-
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  
 }
