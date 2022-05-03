@@ -32,4 +32,3 @@ function init() {
                 console.error(err);
             })
     })
-}
