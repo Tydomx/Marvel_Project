@@ -11,4 +11,14 @@ document.addEventListener('DOMContentLoaded',function(){
       
     }
   });
+
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.dropdown-trigger');
+   elems[0].setAttribute("style", "background:#E57373;")
+  var instances = M.Dropdown.init(elems, {
+    coverTrigger:false,
+    constrainWidth:false
+  });
 });
