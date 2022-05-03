@@ -24,8 +24,11 @@
           <p class="header center slogan">
             All your favorite Superheroes at a click of a button
           </p>
-          <nav class="row red lighten-2">
-            <ul class="brand-logo center">
+          <nav class="nav-wraper row red lighten-2">
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="brand-logo center hide-on-med-and-down">
               <li>
                 <a href="./index.html">Home</a>
               </li>
@@ -40,14 +43,34 @@
               </li>
             </ul>
           </nav>
+
+          <!--Sidenav menu-->
+          <ul class="sidenav" id="mobile-links">
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+           <li>
+              <a class='dropdown-trigger' href='#' data-target='dropdown1'>Character</a>
+            <ul id='dropdown2' class='dropdown-content'>
+                <li><a href="#!" class="red lighten-2 white-text">Favorite Characters</a></li>
+              </ul>
+            </li>
+          </ul> 
+        
+         
+        
+
         </header>
 
         <main>
           <div class="row">
             <div class="center col s12 m6">
-              <h2 class="title-description" >Description of site</h2>
+              <h2 class="title-description" >Welcome!</h2>
               <!-- can always make this more dry -->
-              <p class="description ">
+              <p class="description red lighten-3">
                 Hello! Marvel Fan and welcome to the Marvel Universe website
                 where we will take you on a journey throughout the Marvel
                 Universe finding all of your favorite characters information via
@@ -76,7 +99,7 @@
           data-target="charSelect"
 
         >
-          Submit
+         Search for Superheroes
           <i class="material-icons right">send</i>
         </button>
 
@@ -111,7 +134,10 @@
     </footer>
     
     <script src="./assets/js/homepage.js"></script>
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    
   </body>
 </html>
 
