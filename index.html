@@ -41,6 +41,7 @@
             </ul>
           </nav>
         </header>
+
         <main>
           <div class="row">
             <div class="center col s12 m6">
@@ -66,16 +67,40 @@
           </div>
 
           <div class="center" id="btn">
-            <button
-              class="btn-large waves-effect waves-light  red lighten-2"
-              type="submit"
-              name="action"
-            >
-              Submit
-              <i class="material-icons right">send</i>
-            </button>
+
+        <button
+
+          class="btn-large waves-effect waves-light red lighten-2 modal-trigger" 
+          type="submit"
+          name="action"
+          data-target="charSelect"
+
+        >
+          Submit
+          <i class="material-icons right">send</i>
+        </button>
+
+        <div class="modal" id="charSelect">
+          <div class="modal-content">
+              <h3>Choose a character</h3>
+              <div class="row">
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s12">  <i class="material-icons prefix">person</i>  
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Character Name</label>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                      <a id="charPage" class="btn teal" href="./character.html">Find</a>
+                      <a href="#" class="btn red modal-close">Cancel</a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
           </div>
-        </main>
+        </div>
 
       </div>
     </div>
