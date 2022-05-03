@@ -4,41 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="./assets/image/favicon.ico"
-    />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/image/favicon.ico" />
     <title>Marvel</title>
     <!--CSS-->
-    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bangers&family=Courgette&display=swap"
-      rel="stylesheet"
-    />
-
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Courgette&display=swap" rel="stylesheet" />
     <!--Import Google Icon Font-->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!--Import materialize.css-->
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
     <link href="./assets/css/style.css" rel="stylesheet" />
   </head>
+
   <body>
     <div class="page-container">
       <div class="content-wrap">
+<<<<<<< HEAD
     <header>
       <h1 class="header center">Marvel Universe</h1>
       <p class="header center slogan">
@@ -74,20 +55,60 @@
             all of your favorite characters information via the Marvel API. Once
             there you will receive a gif of said superhero along with a preview
             of their most recent movie.
+=======
+        <header>
+          <h1 class="header center">Marvel Universe</h1>
+          <p class="header center slogan">
+            All your favorite Superheroes at a click of a button
+>>>>>>> 246536e9c16245ef51720ab6e4a22193ff5d2d9c
           </p>
-        </div>
+          <nav class="row red lighten-2">
+            <ul
+              id="nav-mobile"
+              class="brand-logo center text"
+            >
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Character</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
 
-        <figure>
-          <img  class="responsive-img"
-            src="./assets/image/marvel_team.jpg"
-            alt="marvel team"
-          />
-        </figure>
-      </div>
-        <div class="div center ">
+        <main>
+          <div class="row">
+            <div class="center col s12 m6">
+              <h2 class="title-description" >Description of site</h2>
+              <!-- can always make this more dry -->
+              <p class="description ">
+                Hello! Marvel Fan and welcome to the Marvel Universe website
+                where we will take you on a journey throughout the Marvel
+                Universe finding all of your favorite characters information via
+                the Marvel API. Once there you will receive a gif of said
+                superhero along with a preview of their most recent movie.
+              </p>
+            </div>
+            <div class="col s12 m6">
+            <figure>
+              <img
+                class="responsive-img"
+                src="./assets/image/marvel_team.jpg"
+                alt="marvel team"
+              />
+            </figure>
+            </div>
+          </div>
+
+          <div class="center" id="btn">
+
         <button
 
-          class="btn-large waves-effect waves-light red lighten-2 modal-trigger"
+          class="btn-large waves-effect waves-light red lighten-2 modal-trigger" 
           type="submit"
           name="action"
           data-target="charSelect"
@@ -118,16 +139,13 @@
                 </div>
           </div>
         </div>
+
       </div>
-    </main>
     </div>
-  </div>
     <footer id="footer">
- 
-        <p class="red lighten-2">
-          Made with Love by Marvel Fans (Abel, Yuliia, Michael)
-        </p>
-      
+      <p class="white-text red lighten-2">
+        Made with Love by Marvel Fans (Abel, Yuliia, Michael)
+      </p>
     </footer>
     
     <script src="./assets/js/homepage.js"></script>
