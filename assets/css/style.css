@@ -18,7 +18,7 @@ body:after {
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: url(../image/marvel.png);
+  background-image: url(../image/img6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,15 +29,15 @@ body:after {
   font-size: 2rem;
 }
 
-main {
+/* main {
   background: rgba(255, 255, 255, 0.75);
   color: black;
-}
+} */
 .slogan {
   font-size: 2rem;
 }
 p {
-  font-family: "Bangers", cursive
+  font-family: "Bangers", cursive;
   font-size: 1rem;
 }
 nav ul a {
@@ -48,7 +48,7 @@ h2 {
 }
 figure {
   display: flex;
-  border: 2px rgb(201, 109, 109) solid;
+  border: 2px rgb(102, 66, 66) solid;
 }
 
 /*.flex-container {
@@ -74,6 +74,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
