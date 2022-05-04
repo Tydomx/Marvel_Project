@@ -28,11 +28,16 @@ body:after {
 .description {
   font-size: 2rem;
 }
+
+main {
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+}
 .slogan {
   font-size: 2rem;
 }
 p {
-  font-family: "Courgette", cursive;
+  font-family: "Bangers", cursive
   font-size: 1rem;
 }
 nav ul a {
