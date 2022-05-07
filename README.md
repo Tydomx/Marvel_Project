@@ -21,9 +21,9 @@ An application that allows users such as Marvel Fans to get information about th
 * Getting modal created, having side nav for mobile responsive working, and being able to fetch APIs without any issues occurring.
 
 * Challenges: 
-* * Version control through the GitHub process was an issue with human error. 
-* * Difficulty at times with API's whenever things would not connect properly.
-* * Some challenges making navigation for the user responsive where things would not be located as planned.
+  * Version control through the GitHub process was an issue with human error. 
+  * Difficulty at times with API's whenever things would not connect properly.
+  * Some challenges making navigation for the user responsive where things would not be located as planned.
 
 ## Features hope to be implemented in the future
 * Improving design
