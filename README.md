@@ -6,6 +6,8 @@
 * Technologies Used
 * Successes & Challenges
 * Features to be implemented in the future
+* Screenshots
+* Contribution
 
 ## Purpose
 An application that allows users such as Marvel Fans to get information about their favorite super hero, so that the user can understand and admire their favorite super hero.
@@ -33,11 +35,17 @@ An application that allows users such as Marvel Fans to get information about th
 ## Screenshots
 To be added
 
-Screen Shot 2022-05-07 at 4.06.43 PM![image](https://user-images.githubusercontent.com/99767019/167271733-f82c846f-653e-4db7-b209-8accc476c78c.png)
+Homepage
+![image](https://user-images.githubusercontent.com/99767019/167271733-f82c846f-653e-4db7-b209-8accc476c78c.png)
+Homepage w/ modal
+![image](https://user-images.githubusercontent.com/99767019/167272327-008340e4-3137-4979-8a15-610711a772cf.png)
+Character page w/ 'favorite characters' dropdown being shown + Gif & picture
+![image](https://user-images.githubusercontent.com/99767019/167272514-a7e34bb2-99fa-4daa-a920-0a1b799a3dfb.png)
+
 
 
 ## Contribution
 Made with ❤️ by Marvel Fans 
-Abel P. - Abel3213
-Yuliia M. - Ymuzkych
-Michael T. - Tydomx
+* Abel P. - Abel3213
+* Yuliia M. - Ymuzkych
+* Michael T. - Tydomx
