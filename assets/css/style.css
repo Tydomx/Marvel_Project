@@ -1,0 +1,99 @@
+body {
+  font-family: "Bangers", cursive;
+  position: relative;
+}
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 1rem;    /* Footer height */
+}
+
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(../image/img6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.85;
+  z-index: -1;
+}
+.description {
+  font-size: 2rem;
+}
+
+/* main {
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+} */
+.slogan {
+  font-size: 2rem;
+}
+p {
+  font-family: "Bangers", cursive;
+  font-size: 1rem;
+}
+nav ul a {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 4rem;
+}
+figure {
+  display: flex;
+  border: 2px rgb(102, 66, 66) solid;
+}
+
+/*.flex-container {
+    display: flex;
+
+
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+footer {
+  font-family: "Courgette", cursive;
+  text-align: center;
+  font-size: 1rem;
+  position: absolute;
+  bottom: auto;
+  height: 35px;
+  width: 100%;
+}
+
+.modal {
+  background: url(../image/form.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
