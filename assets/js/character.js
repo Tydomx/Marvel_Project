@@ -5,18 +5,19 @@ function fetching() {
     var privateKey = '5d96d5ad0d54441e8920c0c482bc142e3efd0013';
     var ts = 1;
     var hash = hashing(ts, publicKey, privateKey);
-    var url = `http://gateway.marvel.com/v1/public/characters?ts=${ts}&apikey=${publicKey}&hash=${hash}&name=${charId}`;
+    var url = `https://gateway.marvel.com/v1/public/characters?ts=${ts}&apikey=${publicKey}&hash=${hash}&name=${charId}`;
     fetch(url)
     .then(function (response) {
         return response.json()
     })
     .then(function (data) {
+        console.log (data)
         const charPath = data.data.results[0].thumbnail.path 
         const charImg = (charPath + "/portrait_incredible.jpg")
-        console.log (charImg)
         document.getElementById('name').textContent = data.data.results[0].name
       document.getElementById('description').textContent = data.data.results[0].description;
       document.getElementById("charImg").src = charImg; 
+      document.getElementById("marvelcredit").textContent = "Made with Love by Marvel Fans (Abel, Yuliia, Michael) " +data.attributionText;
     })
 }
 
