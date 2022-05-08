@@ -2,12 +2,17 @@
 ## Marvel SuperHero Searcher
 
 ## Table of Contents
+* Links
 * Purpose
 * Technologies Used
 * Successes & Challenges
 * Features to be implemented in the future
 * Screenshots
 * Contribution
+
+## Links
+- Deployed: https://tydomx.github.io/Marvel_project_/
+- Repo: https://github.com/Tydomx/Marvel_project_/
 
 ## Purpose
 An application that allows users such as Marvel Fans to get information about their favorite super hero, so that the user can understand and admire their favorite super hero.
@@ -33,7 +38,6 @@ An application that allows users such as Marvel Fans to get information about th
 * Adding another API to include youtube videos.
 
 ## Screenshots
-To be added
 
 Homepage
 ![image](https://user-images.githubusercontent.com/99767019/167271733-f82c846f-653e-4db7-b209-8accc476c78c.png)
