@@ -2,6 +2,7 @@
 ## Marvel SuperHero Searcher
 
 ## Table of Contents
+* Links
 * Purpose
 * Technologies Used
 * Successes & Challenges
@@ -9,18 +10,27 @@
 * Screenshots
 * Contribution
 
+## Links
+- Deployed: https://tydomx.github.io/Marvel_project_/
+- Repo: https://github.com/Tydomx/Marvel_project_/
+
 ## Purpose
 An application that allows users such as Marvel Fans to get information about their favorite super hero, so that the user can understand and admire their favorite super hero.
 
 ## Technologies Used
 
-* HTML - structuring the website and letting us give classes to elements to set up the CSS. 
-* Materialize (CSS) - letting us have a framework for easier accessibility to CSS. 
-* Javascript - created a modal allowing user to type in their favorite hero's name. Allowing us to request third-party API's into the website to have information about the hero and a GIF about them.
-* Third-Party API's: Marvel and Giphy - Marvel API: requested information about heroes into the website, GIPHY API: requested GIF about specified heroes.
+* **HTML** - structuring the website and letting us give classes to elements to set up the CSS. 
+* **Materialize (CSS)** - letting us have a framework for easier accessibility to CSS. 
+* **Javascript** - created a modal allowing user to type in their favorite hero's name. Allowing us to request third-party API's into the website to have information about the hero and a GIF about them.
+* **Third-Party API's:** Marvel and Giphy
+  * Marvel API: requested information about heroes into the website
+  * GIPHY API: requested GIF about specified heroes.
 
 ## Successes & Challenges
-* Getting modal created, having side nav for mobile responsive working, and being able to fetch APIs without any issues occurring.
+* Successes
+  * Getting modal created
+  * Having side nav for mobile responsive working
+  * Being able to fetch APIs without any issues occurring
 
 * Challenges: 
   * Version control through the GitHub process was an issue with human error. 
@@ -29,11 +39,11 @@ An application that allows users such as Marvel Fans to get information about th
 
 ## Features hope to be implemented in the future
 * Improving design
-* Adding more functionality to the page, such as allowing user to log in and save their information, adding a button to have a collection of heroes.
+  * Adding more functionality to the page, such as allowing user to log in and save their information, adding a button to have a collection of heroes.
 * Adding another API to include youtube videos.
+* Adding function to list favorite heroes in 'favorite characters' tab on a scale
 
 ## Screenshots
-To be added
 
 Homepage
 ![image](https://user-images.githubusercontent.com/99767019/167271733-f82c846f-653e-4db7-b209-8accc476c78c.png)
