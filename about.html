@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/image/favicon.ico" />
+    <title>Marvel</title>
+    <!--CSS-->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Courgette&display=swap" rel="stylesheet" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="content-wrap">
+            <header>
+                <h1 class="header center">Marvel Universe</h1>
+                <p class="header center slogan">
+                    All your favorite Superheroes at the click of a button
+                </p>
+                <nav class="nav-wraper brown darken-2">
+                    <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="brand-logo center hide-on-med-and-down">
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./about.html">About</a>
+                        </li>
+                        <li>
+                            <a class='dropdown-trigger' href='#' data-target='dropdown1'>Character</a>
+                            <ul id='dropdown1' class='dropdown-content'>
+                                <li><a href="#!" class="brown darken-2 white-text">Favorite Characters</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--Sidenav menu-->
+                <ul class="sidenav" id="mobile-links">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a class='dropdown-trigger' href='#' data-target='dropdown2'>Character</a>
+                        <ul id='dropdown2' class='dropdown-content'>
+                            <li><a href="#!" class="brown darken-2 white-text">Favorite Characters</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </header>
+
+            <main>
+                <header class="aboutHead">
+                    <h1>About Page</h1>
+                    <h3>Website Description: </h3>
+                    <p>An application that allows users such as Marvel Fans to get information about their favorite super hero, so that the user can understand and admire their favorite super hero.</p>
+                </header>
+
+                <section class="groupmem">
+                    <div class="abel">
+                        <h4>Abel P.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maiores optio sit porro consectetur dolorum tempore esse, ducimus, inventore perspiciatis, similique corporis obcaecati sunt quidem magnam ipsum nostrum fugiat iste.</p>
+                    </div>
+                    <div class="yuliia">
+                        <h4>Yuliia M.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quia consectetur aliquid molestiae consequuntur vel, facilis sapiente a sint fugiat vero ad quaerat optio et corporis, esse excepturi laborum expedita!</p>
+                    </div>
+                    <div class="michael">
+                        <h4>Michael T.</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum esse illo quod hic voluptates animi. Dolorem fuga ea, dolorum adipisci consequatur tempora dignissimos qui placeat ex, eligendi sunt perferendis earum.</p>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+            <footer id="footer">
+                <p class="white-text brown darken-2">
+                    Made with Love by Marvel Fans (Abel, Yuliia, Michael)
+                </p>
+            </footer>
+
+            <script src="./assets/js/homepage.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"
+                integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA=="
+                crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/md5.min.js"
+                integrity="sha512-3sGbaDyhjGb+yxqvJKi/gl5zL4J7P5Yh4GXzq+E9puzlmVkIctjf4yP6LfijOUvtoBI3p9pLKia9crHsgYDTUQ=="
+                crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="./assets/js/character.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
