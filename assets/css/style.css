@@ -59,6 +59,21 @@ figure {
     margin-right: auto;
 }*/
 
+.aboutHead {
+  display: inline;
+  align-items: center;
+}
+
+.aboutHead p {
+  font-size: 1.5em;
+}
+
+.groupmem {
+  display: flex;
+  border: 2px solid black;
+  justify-content: center;
+}
+
 footer {
   font-family: "Courgette", cursive;
   text-align: center;
