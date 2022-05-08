@@ -29,15 +29,11 @@ body:after {
   font-size: 2rem;
 }
 
-/* main {
-  background: rgba(255, 255, 255, 0.75);
-  color: black;
-} */
 .slogan {
   font-size: 2rem;
 }
 p {
-  font-family: "Bangers", cursive;
+  font-family: "Courgette", cursive;
   font-size: 1rem;
 }
 nav ul a {
@@ -51,18 +47,10 @@ figure {
   border: 2px rgb(102, 66, 66) solid;
 }
 
-/*.flex-container {
-    display: flex;
-
-
-    margin-left: auto;
-    margin-right: auto;
-}*/
-
 footer {
   font-family: "Courgette", cursive;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   position: absolute;
   bottom: auto;
   height: 35px;
@@ -75,25 +63,3 @@ footer {
   background-size: cover;
 }
 
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-  
-
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  
-}
