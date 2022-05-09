@@ -1,3 +1,4 @@
+// function for fetching the Marvel API
 const charId = localStorage.getItem('charSelected');
 
 function fetching() {
@@ -26,6 +27,7 @@ function hashing(ts, publicKey, privateKey) {
     return hash;
 }
 
+// function for fetching the GIPHY API 
 
 let APIKEY = 'RnIvb4HLPtrRcGkX1YVlWzJBPzPoGknC';
 document.addEventListener("DOMContentLoaded", init);
