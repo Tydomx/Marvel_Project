@@ -25,6 +25,7 @@ An application that allows users such as Marvel Fans to get information about th
 * **Third-Party API's:** Marvel and Giphy
   * Marvel API: requested information about heroes into the website
   * GIPHY API: requested GIF about specified heroes.
+* **Client-side storage:** Hero name
 
 ## Successes & Challenges
 * Successes
@@ -51,6 +52,9 @@ Homepage w/ modal
 ![image](https://user-images.githubusercontent.com/99767019/167272327-008340e4-3137-4979-8a15-610711a772cf.png)
 Character page w/ 'favorite characters' dropdown being shown + Gif & picture
 ![image](https://user-images.githubusercontent.com/99767019/167272514-a7e34bb2-99fa-4daa-a920-0a1b799a3dfb.png)
+Client-side storage
+![image](https://user-images.githubusercontent.com/99767019/167330550-324bb835-f77e-4626-99aa-654c99413938.png)
+
 
 
 
