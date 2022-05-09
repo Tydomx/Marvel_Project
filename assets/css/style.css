@@ -47,7 +47,7 @@ figure {
   border: 2px rgb(102, 66, 66) solid;
 }
 
-
+/* this is a little bit of css for the short about page */
 .aboutHead {
   display: inline;
   align-items: center;
@@ -62,6 +62,7 @@ figure {
   border: 2px solid black;
   justify-content: center;
 }
+/* end of about page css */
 
 footer {
   font-family: "Courgette", cursive;
