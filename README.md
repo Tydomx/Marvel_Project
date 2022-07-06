@@ -1,5 +1,9 @@
 # Marvel Project
 ## Marvel SuperHero Searcher
+![GitHub issues badge](https://img.shields.io/github/issues/Tydomx/Marvel_project)
+![GitHub forks badge](https://img.shields.io/github/forks/Tydomx/Marvel_project)
+![GitHub stars badge](https://img.shields.io/github/stars/Tydomx/Marvel_project)
+![GitHub license badge](https://img.shields.io/github/license/Tydomx/Marvel_project)
 
 ## Table of Contents
 * Links
@@ -11,8 +15,8 @@
 * Contribution
 
 ## Links
-- Deployed: https://tydomx.github.io/Marvel_project_/
-- Repo: https://github.com/Tydomx/Marvel_project_/
+- Deployed: https://tydomx.github.io/Marvel_project/
+- Repo: https://github.com/Tydomx/Marvel_project/
 
 ## Purpose
 An application that allows users such as Marvel Fans to get information about their favorite super hero, so that the user can understand and admire their favorite super hero.
@@ -55,7 +59,8 @@ Character page w/ 'favorite characters' dropdown being shown + Gif & picture
 Client-side storage
 ![image](https://user-images.githubusercontent.com/99767019/167330550-324bb835-f77e-4626-99aa-654c99413938.png)
 
-
+## License 
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
 ## Contribution
