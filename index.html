@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/x-icon" href="./assets/image/favicon.ico" />
     <title>Marvel</title>
-    <!--CSS-->
+    <!--CSS fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Courgette&display=swap" rel="stylesheet" />
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!-- linking to main css page -->
     <link href="./assets/css/style.css" rel="stylesheet" />
   </head>
 
   <body>
     <div class="row page-container">
       <div class="col s13 content-wrap">
+        <!-- header menu -->
         <header>
           <h1 class="header center">Marvel Universe</h1>
           <p class="header center slogan">
@@ -74,22 +76,23 @@
             </div>
             <div class="center col s12 m6 main-section">
               <h2 class="title-description" >Welcome!</h2>
-              <!-- can always make this more dry -->
+              <!-- welcome paragraph -->
               <p class="description">
-                Hello! Marvel Fan and welcome to the Marvel Universe website
+                Hello Marvel Fan! and welcome to the Marvel Universe website
                 where we will take you on a journey throughout the Marvel
                 Universe finding all of your favorite characters information via
-                the Marvel API. Once there you will receive a gif of said
-                superhero along with a preview of their most recent movie.
+                the Marvel API. Once you submit your favorite hero in the pop-up you will then be transferred to a different page and receive a gif, picture and a description of your selected hero.
               </p>
             </div>
           </div>
+          <!-- button to access the modal when clicked -->
           <div class="center" id="btn">
             <button class="btn-large waves-effect waves-light brown darken-2 modal-trigger" type="submit" name="action" data-target="charSelect">
              Search for Superheroes
             <i class="material-icons right">send</i>
             </button>
 
+            <!-- modal -->
             <div class="modal" id="charSelect">
               <div class="modal-content">
                 <h3>Choose a character</h3>
@@ -111,12 +114,15 @@
         </main>
       </div>
     </div>
+
+    <!-- footer -->
     <footer id="footer">
       <p class="white-text brown darken-2">
         Made with Love by Marvel Fans (Abel, Yuliia, Michael)
       </p>
     </footer>
 
+    <!-- linking scripts -->
     <script src="./assets/js/homepage.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 

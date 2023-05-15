@@ -1,3 +1,4 @@
+/* css for character html page */
 p {
   font-family: 'Bangers', cursive;
   font-size: 3rem;
@@ -14,4 +15,7 @@ p {
 }
 h4 {
   font-size: 1.2rem;
+}
+p {
+  text-align: center;
 }
