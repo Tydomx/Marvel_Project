@@ -1,5 +1,5 @@
 body {
-  font-family: "Bangers", cursive;
+  font-family: 'Bangers', cursive;
   position: relative;
 }
 .page-container {
@@ -8,11 +8,11 @@ body {
 }
 
 .content-wrap {
-  padding-bottom: 1rem;    /* Footer height */
+  padding-bottom: 1rem; /* Footer height */
 }
 
 body:after {
-  content: "";
+  content: '';
   position: fixed;
   top: 0;
   left: 0;
@@ -33,7 +33,7 @@ body:after {
   font-size: 2rem;
 }
 p {
-  font-family: "Courgette", cursive;
+  font-family: 'Bangers', cursive;
   font-size: 1rem;
 }
 nav ul a {
@@ -46,7 +46,6 @@ figure {
   display: flex;
   border: 2px rgb(102, 66, 66) solid;
 }
-
 
 .aboutHead {
   display: inline;
@@ -64,7 +63,7 @@ figure {
 }
 
 footer {
-  font-family: "Courgette", cursive;
+  font-family: 'Courgette', cursive;
   text-align: center;
   font-size: 1.2rem;
   position: absolute;
@@ -78,4 +77,3 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
